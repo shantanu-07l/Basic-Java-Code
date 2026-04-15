@@ -3,11 +3,10 @@ public class REverse {
 
         int a=2;
         int b=4;
-        int temp=a;//temp=2
-        a=b;//a=4
-        b=temp;//b=2
+        int temp=a;
+        a=b;
+        b=temp;
         System.out.println("a="+a+"b="+b);
-        // without temp
         a=a+b;
         b=a-b;
         a=a-b;
